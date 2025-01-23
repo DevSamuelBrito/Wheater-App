@@ -1,16 +1,53 @@
-# wheater_app
+# Weather App
 
-A new Flutter project.
+## Descrição
+Este é um aplicativo de previsão do tempo desenvolvido em Flutter que permite aos usuários verificar as condições meteorológicas atuais e futuras para diferentes localidades feito na FATEC Rio Preto para melhor estudo do Framework Flutter.
 
-## Getting Started
+## Instalação
+Para instalar e executar o projeto localmente, siga estas etapas:
 
-This project is a starting point for a Flutter application.
+1. Clone o repositório:
+    ```bash
+    git clone https://github.com/seu-usuario/weather-app.git
+    ```
+2. Navegue até o diretório do projeto:
+    ```bash
+    cd weather-app
+    ```
+3. Instale as dependências:
+    ```bash
+    flutter pub get
+    ```
 
-A few resources to get you started if this is your first Flutter project:
+## Uso
+Para iniciar o aplicativo, execute o seguinte comando:
+```bash
+flutter run
+```
+Abra o emulador ou conecte seu dispositivo para ver o aplicativo em execução.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Tecnologias Utilizadas
+- Flutter
+- Dart
+- API de Previsão do Tempo 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Contribuição
+Se você deseja contribuir com o projeto, siga estas etapas:
+
+1. Faça um fork do repositório.
+2. Crie uma nova branch:
+    ```bash
+    git checkout -b minha-nova-feature
+    ```
+3. Faça suas alterações e commit:
+    ```bash
+    git commit -m 'Adiciona nova feature'
+    ```
+4. Envie para o branch original:
+    ```bash
+    git push origin minha-nova-feature
+    ```
+5. Abra um Pull Request.
+
+## Licença
+Este projeto está licenciado sob a Licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
